@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- BROWSER TAB: edit the page title and description here. -->
+    <title>Portfolio</title>
+    <meta name="description" content="Explore the portfolio of Donne Crislee E. Vicera">
+    <link rel="icon" type="image/svg+xml" href="images/wordmark2.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="glass-theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="portfolio.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="theme.js"></script>
+  </head>
+  <body data-page="home">
+    <a class="skip" href="#main">
+      Skip to content
+    </a>
+    <!-- HEADER / NAVIGATION — shared name comes from portfolio.js -->
+    <header class="header wrap">
+      <a class="brand" href="index.html" aria-label="Donne — home">
+        <span class="brand-name">Donne.</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="index.html" aria-current="page">
+          Home
+        </a>
+        <a href="graphic-design.html">
+          Graphic design
+        </a>
+        <a href="video-editing.html">
+          Video editing
+        </a>
+        <a class="nav-contact" href="index.html#contact">
+          Let’s talk
+        </a>
+      </nav>
+
+      <button class="theme-switch" type="button" role="switch" aria-checked="false" aria-label="Dark mode" title="Switch to dark mode">
+        <span class="theme-label" aria-hidden="true">Light</span>
+        <span class="theme-orb" aria-hidden="true">
+          <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.6 14.2A8.6 8.6 0 0 1 9.8 3.4a9 9 0 1 0 10.8 10.8Z"/></svg>
+        </span>
+      </button>
+    </header>
+    <main id="main">
+      <!-- HOME INTRODUCTION — headline and buttons -->
+      <section class="hero wrap">
+        <div class="eyebrow">
+          <p class="eyebrow portfolio-small-label">PORTFOLIO</p>
+        </div>
+        <!-- EDIT: Change this headline directly in index.html. -->
+        <h1>
+          Thoughtful design.
+          <br>
+          <span class="gradient-text" >
+            Meaningful motion.
+          </span>
+        </h1>
+        <p class="hero-intro">
+           I’m Donne. I make graphics and edit videos look and feel better,
+          <br class="desktop-break">
+          mostly by editing way too late at night.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="#portfolios">
+            Explore my work
+          </a>
+          <a class="quiet-link" href="#about">
+            A little about me
+          </a>
+        </div>
+      </section>
+      <!-- ABOUT ME / PICTURE — edit the image src below -->
+      <section class="about-section" id="about">
+        <div class="wrap about-layout">
+          <!-- LEFT: Your photo -->
+          <div class="about-photo-frame">
+            <img class="about-photo" src="images/my-photo.png" alt="Portrait of me">
+          </div>
+          <!-- MIDDLE: Your heading -->
+          <div class="about-heading">
+            <p class="eyebrow">
+              NAME
+            </p>
+            <h2>
+              Donne Crislee E. Vicera
+          </div>
+          <!-- RIGHT: Your biography -->
+          <div class="about-description">
+            <!-- This paragraph gets its text from bio in portfolio.js -->
+            <p class="about-lead">
+              Most of my work is for YouTube and social media. I also do motion graphic when a project needs it.
+            </p>
+            <p class="muted">
+              I got into editing because I liked watching videos and wondering how they were made. Now I’m the one making them, and honestly I still get excited when a cut finally lands. 
+            </p>
+            <div class="about-tags">
+              <span>
+                Graphic design
+              </span>
+              <span>
+                Video editing
+              </span>
+              <span>
+                Motion graphics
+              </span>
+            </div>
+            <div class="software-tools">
+              <p class="tools-label">TOOLS I USE</p>
+
+              <ul class="tools-row" aria-label="Software I use">
+                <li class="tool-icon" title="DaVinci Resolve">
+                  <img
+                    src="images/tools/davinci-resolve.png"
+                    alt="DaVinci Resolve"
+                    width="40"
+                    height="40"
+                    loading="lazy"
+                  >
+                </li>
+                
+                <li class="tool-icon" title="Adobe Premiere Pro">
+                  <img
+                    src="images/tools/premiere-pro.png"
+                    alt="Adobe Premiere Pro"
+                    width="40"
+                    height="40"
+                    loading="lazy"
+                  >
+                </li>
+                
+                <li class="tool-icon" title="Capcut">
+                  <img
+                    src="images/tools/capcut.png"
+                    alt="Capcut"
+                    width="40"
+                    height="40"
+                    loading="lazy"
+                  >
+                </li>
+
+                <li class="tool-icon" title="Canva Affinity">
+                  <img
+                    src="images/tools/affinity.png"
+                    alt="Canva Affinity"
+                    width="40"
+                    height="40"
+                    loading="lazy"
+                  >
+                </li>
+
+                <li class="tool-icon" title="Adobe Photoshop">
+                  <img
+                    src="images/tools/adobe-photoshop.png"
+                    alt="Adobe Photoshop"
+                    width="40"
+                    height="40"
+                    loading="lazy"
+                  >
+                </li>
+
+                <li class="tool-icon" title="Adobe Illustrator">
+                  <img
+                    src="images/tools/adobe-illustrator.png"
+                    alt="Adobe Illustrator"
+                    width="40"
+                    height="40"
+                    loading="lazy"
+                  >
+                </li>
+
+                <li class="tool-icon" title="Canva">
+                  <img
+                    src="images/tools/canva.png"
+                    alt="Canva"
+                    width="40"
+                    height="40"
+                    loading="lazy"
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- MY WORK — links to your two portfolio pages -->
+      <section class="wrap portfolio-section" id="portfolios">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">
+              TWO DISCIPLINES. ONE CREATIVE MIND.
+            </p>
+            <h2>
+              My work.
+            </h2>
+          </div>
+        </div>
+        <div class="pathways">
+          <a class="path-card folder-card" href="graphic-design.html">
+            <div class="folder-shell">
+
+              <div class="folder-photos" aria-hidden="true">
+                <img src="images/design-1.png" alt="">
+                <img src="images/design-2.png" alt="">
+                <img src="images/design-3.png" alt="">
+              </div>
+
+              <div class="folder-front">
+                <span>Graphic Design</span>
+              </div>
+
+            </div>
+          </a>
+
+          <a class="path-card folder-card" href="video-editing.html">
+            <div class="folder-shell">
+
+              <div class="folder-photos" aria-hidden="true">
+                <video muted loop playsinline preload="metadata">
+                  <source src="videos/preview-1.mp4" type="video/mp4">
+                </video>
+
+                <video muted loop playsinline preload="metadata">
+                  <source src="videos/preview-2.mp4" type="video/mp4">
+                </video>
+
+                <video muted loop playsinline preload="metadata">
+                  <source src="videos/preview-3.mp4" type="video/mp4">
+                </video>
+              </div>
+
+              <div class="folder-front">
+                <span>Video Editing</span>
+              </div>
+
+            </div>
+          </a>
+      </section>
+      <!-- CONTACT — email comes from portfolio.js -->
+      <section class="contact wrap" id="contact">
+        <p class="eyebrow">
+          <p class="eyebrow portfolio-small-label">LET’S CREATE SOMETHING</p>
+        </p>
+        <h2>
+          Your next idea.
+          <br>
+          <span class="gradient-text" >
+            Let’s bring it to life.
+          </span>
+        </h2>
+        <a class="email" data-email href="mailto:viceradonnecrislee@gmail.com" >
+          viceradonnecrislee@gmail.com
+        </a>
+        <p class="muted">
+          For projects, collaborations, and creative conversations.
+        </p>
+      </section>
+    </main>
+    <!-- FOOTER — name and year filled automatically -->
+    <footer class="footer wrap">
+      <span>
+        ©
+        <span data-year>
+          2026
+        </span>
+        <span data-name>
+          Donne Crislee E. Vicera
+        </span>
+      </span>
+      <span>
+        Design with intention. Edit with feeling.
+      </span>
+      <a href="#main">
+        Back to top
+      </a>
+    </footer>
+  </body>
+</html>
