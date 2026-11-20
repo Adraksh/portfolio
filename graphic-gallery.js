@@ -43,11 +43,11 @@
             alt: "School Organization Poster 2"
           },
           {
-            src: "images/graphics/schoolorg0.png",
+            src: "images/graphics/school3.png",
             alt: "School Organization Poster 3"
           },
           {
-            src: "images/graphics/schoolorg.png",
+            src: "images/graphics/school4.png",
             alt: "School Organization Poster 4"
           },
         // Replace these with real filenames before enabling:
