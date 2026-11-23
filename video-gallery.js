@@ -62,6 +62,21 @@
                 src: "https://youtu.be/uaFZ-AYEoQY?si=4JoqPORayUSmX_FT",
                 poster: "images/video-thumbnails/shameem.png",
                 title: "Shameem Video 4"
+        },
+        {
+                src: "https://youtu.be/oqCXp36xILQ?si=OXOOfmYpUWG10BYJ",
+                poster: "images/video-thumbnails/charlotte1.png",
+                title: "Charlotte Video 1"
+        },
+        {
+                src: "https://youtu.be/oqCXp36xILQ?si=3UUzbW3bHDPEXbbj",
+                poster: "images/video-thumbnails/charlotte2.png",
+                title: "Charlotte Video 2"
+        },
+        {
+                src: "https://youtu.be/yY_oIInBkuo?si=pHeITVGI9C_xXjZe",
+                poster: "images/video-thumbnails/charlotte3.png",
+                title: "Charlotte Video 3"
         }
         // Remove // and use your actual filenames:
         // {
