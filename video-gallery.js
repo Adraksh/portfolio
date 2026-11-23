@@ -84,7 +84,7 @@
                 title: "Short 2"
         },
         { src: "https://youtube.com/shorts/icrRlSg2zAk?feature=share",
-                poster: "images/video-thumbnails/Short3.png",
+                poster: "images/video-thumbnails/Short 3.png",
                 title: "Short 3"
         }
       ]
