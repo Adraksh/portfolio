@@ -85,6 +85,7 @@
                 title: "Short 3"
         }
       ]
+    }
     // ADD ANOTHER CATEGORY HERE:
     // {
     //   id: "short-form",
