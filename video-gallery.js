@@ -76,12 +76,15 @@
       label: "Short form",
       items: [
         { src: "https://youtube.com/shorts/a3dYP0AzN48?feature=share",
+                poster: "images/video-thumbnails/Short1.png",
                 title: "Short 1"
         },
         { src: "https://youtube.com/shorts/Bl7jqq2NKww?feature=share",
+                poster: "images/video-thumbnails/Short2.png",
                 title: "Short 2"
-        }
+        },
         { src: "https://youtube.com/shorts/icrRlSg2zAk?feature=share",
+                poster: "images/video-thumbnails/Short3.png",
                 title: "Short 3"
         }
       ]
